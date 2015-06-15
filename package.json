@@ -1,0 +1,8 @@
+{
+  "name": "angularjs-themerator-service",
+  "description": "An approach to pure client-side CSS theming",
+  "dependencies": {
+    "angular": "^1.4",    
+    "lodash": "^3.5.0"
+  }
+}

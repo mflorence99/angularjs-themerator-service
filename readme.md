@@ -2,7 +2,7 @@
 
 ## Motivation
 
-This project is not intended to be uses as-is, but rather as a suggested implementation to be tweaked
+This project is not intended to be used as-is, but rather as a suggested implementation to be tweaked
 to taste. The idea is to efficiently apply theme colors to a Web application's stylesheets at run-time and
 purely using client-side code.
 

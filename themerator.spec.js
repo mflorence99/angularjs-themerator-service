@@ -1,12 +1,8 @@
 /**
+ * Unit tests for angularjs-themerator-service
  *
- * @package     angularjs-themerator-service
- * @version     0.0.0
- * @copyright   Copyright (c) 2015 - All rights reserved.
- * @license     MIT License
- * @author      Mark Florence <mflo999@gmail.com>
- * @link        https://github.com/mflorence99/mflorence99.github.io
- *
+ * @author      https://github.com/mflorence99/mflorence99.github.io
+ * @version     0.0.1
  */
 
 describe("The themerator service converts #beef placeholder colors in the stylesheet", function() {

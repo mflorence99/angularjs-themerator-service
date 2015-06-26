@@ -1,12 +1,10 @@
 /**
+ * angularjs-themerator-service: An Approach to Pure Client-Side CSS Theming
  *
- * @package     angularjs-themerator-service
- * @version     0.0.0
- * @copyright   Copyright (c) 2015 - All rights reserved.
- * @license     MIT License
- * @author      Mark Florence <mflo999@gmail.com>
- * @link        https://github.com/mflorence99/mflorence99.github.io
+ * <p>Replaces #beef colors in all stylesheets with suppluied theme colors.</p>
  *
+ * @author      https://github.com/mflorence99/mflorence99.github.io
+ * @version     0.0.1
  */
 
 angular.module("XXX").service("angularjs-themerator-service",
@@ -76,13 +74,16 @@ angular.module("XXX").service("angularjs-themerator-service",
     var themes = THEME0.concat(THEME1);
     var beefs = THEME0BEEF.concat(THEME1BEEF);
     _.forEach($document[0].styleSheets, function(styleSheet) {
-      if (styleSheet.href && (styleSheet.href.indexOf("all.css") !== -1))
-        processRules(styleSheet.cssRules || styleSheet.rules, themes, beefs);
+      processRules(styleSheet.cssRules || styleSheet.rules, themes, beefs);
     });
   }
 
-  // the service
-
+  /**
+   * angularjs-themerator-service
+   *
+   * @param     THEME0 array of colors
+   * @param     THEME1 array of colors
+   */
   return processSheets;
 
 }]);

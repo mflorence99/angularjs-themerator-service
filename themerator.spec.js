@@ -1,7 +1,7 @@
 /**
  * Unit tests for angularjs-themerator-service
  *
- * @author      https://github.com/mflorence99/mflorence99.github.io
+ * @author      http://mflo.io
  * @version     0.0.1
  */
 

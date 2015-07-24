@@ -1,7 +1,7 @@
 /**
  * angularjs-themerator-service: An Approach to Pure Client-Side CSS Theming
  *
- * <p>Replaces #beef colors in all stylesheets with suppluied theme colors.</p>
+ * <p>Replaces #beef colors in all stylesheets with supplied theme colors.</p>
  *
  * @author      http://mflo.io
  * @version     0.0.1
